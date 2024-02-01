@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&amp;family=Tangerine&amp;display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <main>
+        <section class="bg" id="main-visual">
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="xxx">TOP</a></li>
+                    <li><a href="xxx">ABOUT</a></li>
+                    <li><a href="xxx">SKILL</a></li>
+                    <li><a href="xxx">INFORMAITON</a></li>
+                </ul>
+            </nav>
+            <div class="inner">
+            </div>
+        </section>
+
+        <section class="bg right">
+            <div class="inner">
+                <div id="about">
+                    <h2>About</h2>
+                    <figure id="profile-image">
+                        <img src="./images/IMG_9841.jpeg" alt="">
+                    </figure>
+                    <h3>諏訪凌大</h3>
+                    <p>2002/04/02</p>
+                    <h3>自己紹介</h3>
+                    <p>
+                    高校卒業後、芸能関係の学校に進学。<br>
+                    在学中に、ITやAIの可能性を感じIT系の専門学校に編入。<br>
+                    専門学校では、英語やプログラミング、データベースなどを勉強中。<br>
+                    趣味は、約10年ほどやっていたサッカーです。<br>
+                    サッカーは、自分でプレイするのも観戦するのも好きです。<br>
+                    好きな選手は、ブラジル代表のネイマール選手です。<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sevice" class="cf">
+            <h2 class="ttl">Skill</h2>
+                <div class="seviceInner">
+                    <div class="serviceItem">
+                        <p class="ttl">html</p>
+                        <p class="icon">
+                            <img src="./images/icons8-html-96.png" alt="direction">
+                        </p>
+                        <p class="text01">ウェブ開発においてHTMLは私の基本的なツールの一つです。HTMLを使用して、クリーンでセマンティックなコードを書くことに重点を置いています。ウェブページの構造を理解し、効果的に記述することで、ユーザーエクスペリエンスを向上させるために役立っています。</p>
+                        </div>
+                <div class="serviceItem">
+                        <p class="ttl">css</p>
+                        <p class="icon">
+                            <img src="./images/icons8-css-96.png" alt="direction">
+                        </p>
+                        <p class="text01">ウェブページのデザインとスタイルにおいて、CSSは私の強力なツールの一つです。優れたユーザーエクスペリエンスを提供するために、洗練されたスタイルとレイアウトを構築することに情熱を注いでいます。</p>
+                        </div>
+                <div class="last serviceItem">
+                        <p class="ttl">Python</p>
+                        <p class="icon">
+                            <img src="./images/icons8-python-96.png" alt="direction">
+                        </p>
+                        <p class="text01">Pythonは私の主力言語の一つであり、様々な領域で活用しています。優れた可読性と柔軟性を備えたPythonを使用して、効率的かつ堅牢なソフトウェア開発を追求しています。</p>
+                        </div>
+            </div>
+        </section>
+        
+
+        <section class="bg left">
+        <a  target="_blank" href="./Works/index.html">    
+            <img src="./images/leone-venter-pVt9j3iWtPM-unsplash.jpg" alt="" data-aos="fade">
+            <p>WORK</p>
+        </a>    
+            <div class="inner">
+                <p>
+                    上記の画像をクリックして、作品をご覧ください。
+                    <br>簡単なwebサイトをご覧にいただけます。
+                    <br>ぜひ一度足を運んで、私の仕事に触れてみてください！
+                </p>
+            </div>
+        </section>
+
+        <section class="bg right">
+        <a target="_blank" href="./CANEL/index.html">    
+            <img src="./images/lilly-rum-iyKVGRu79G4-unsplash.jpg" alt="" data-aos="fade" class="bg right">
+            <p>HOBBY</p>
+        </a>    
+            <div class="inner">
+                <p>
+                    上記の画像をクリックして、私の趣味や興味を追求するページに足を運んでみてください。
+                    <br>私が心から愛する趣味に関するエピソードや写真が待っています。
+                    <br>クリックして、私の別の一面を発見してみませんか？
+                </p>
+            </div>
+
+            <a class="slide-in" href="./20230824_corporate/form.html" target="_blank">
+                Ryota suwa
+                <span class="more">information</span>
+                <img src="./images/3B45F673-1895-4EA5-B8AE-CEB511BF9983.jpg" alt="諏訪凌大">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; My portfolio</small>
+    </footer>
+
+    <script>
+        AOS.init({
+            offset: 0,      // アニメーションの距離（px）
+            duration: 1000,    // 実行秒数（ミリ秒）
+            easing: 'ease-in',   // イージング（緩急）
+            delay: 400,        // 遅延秒数（ミリ秒）
+            once: false,      // 1回だけかどうか
+            anchorPlacement: 'bottom-top',  // 発火位置指定
+        });
+
+
+        // 【アニメーション】スライドイン
+        $(window).on('load', function () {
+            var $slideIn = $('.slide-in'),
+                slideInOffsetTop = $slideIn.offset().top
+            windowH = $(window).height();
+
+            $(window).on('scroll', function () {
+                // 総スクロール量 > .slide-in - ウィンドウサイズ
+                // => .slide-inが表示領域に入ったら.showを追加、領域外では削除
+                if ($(this).scrollTop() > slideInOffsetTop - windowH) {
+                    $slideIn.addClass('show');
+                } else {
+                    $slideIn.removeClass('show');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
